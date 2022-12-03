@@ -1,0 +1,97 @@
+<!DOCTYPE html>    
+    <html>    
+    <head>    
+        <title>booking Form</title>    
+        <link rel="stylesheet" type="text/css" href="style4.css">  
+		<script src="myscript.js"></script>
+		<script src="jquery-3.6.0.js"></script>
+    </head>    
+    <body>    
+	
+	<center><h2>Book Your Trip</h2></center>
+        <form id="bookin" method="get" action="login.php" name="bookinginForm"> 
+		
+		
+            <label><b>Vehicle type     
+            </b>    
+            </label> 
+			 
+            <select name="vehicle" id="vehicle">
+				<option value="car">Car</option>
+				<option value="van">Van</option>
+				<option value="bus">bus</option>
+				<option value="suv">SUV</option>
+			</select>  <br><br>
+
+	
+
+               
+
+   
+
+ 
+		<label id="wd"><b>With driver</b></label><input type="radio" name="with" value="with">
+		<label id="wod"><b>Without driver</b></label><input type="radio" name="without" value="without"><br><br>
+		
+		
+    <label id="checkin" class="field-label"><b>Check-in Date</b></label>
+    
+      <input type="date" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label>
+  
+   
+  
+    <label id="checkout" class="field-label"><b>Check-out Date</b></label>
+   
+      <input type="date" id="checkout" name="checkout" class="gui-input" required="" placeholder="mm/dd/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label><br><br>
+  
+ 
+<div class="spacer-t20 spacer-b30">
+  <div  class="tagline"><span><b>Please answer these questions for a pleasant stay<b/></span></div>
+</div>
+ 
+<div class="frm-row">
+  <div class="option-group field">
+   
+    <div class="section colm colm6">
+      <label class="switch">
+        <input type="checkbox" name="switch1" id="switch1" value="switch1">
+        <span class="switch-label" data-on="YES" data-off="NO"></span>
+        <span><b>Will you be bringing a pet?<b/></span>
+      </label>
+    </div>
+         
+    <div class="section colm colm6">
+      <label class="switch">
+        <input type="checkbox" name="switch2" id="switch2" value="switch2">
+        <span class="switch-label" data-on="YES" data-off="NO"></span>
+        <span><b>Do you need us to pick you up?</b></span>
+      </label>
+    </div>
+               
+  </div>
+</div><br>
+ 
+ 
+ 
+<div class="section">
+  <label for="comment" class="field-label">Anything else we should know about?</label><br><br>
+  <label for="comment" class="field prepend-icon">
+    <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special accommodation needs"></textarea><br>
+    <span class="field-icon"><i class="fa fa-comments"></i></span>
+    <span class="input-hint"> 
+      <strong><br>Please:</strong> Be as descriptive as possible
+    </span>   
+  </label>
+</div><br><br>
+
+	<label><b>Confirm your Trip</b></label><input type="button" value="confirm" id="btn">
+
+               
+        </form>     
+    </div> 
+   </body>    
+    </html> 

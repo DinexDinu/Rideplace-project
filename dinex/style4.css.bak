@@ -1,0 +1,83 @@
+body{  
+        margin: 0;  
+        padding: 0;  
+        background-color:white;  
+        font-family: 'Arial';  
+    }  
+    form{  
+            width: 600px;  
+            overflow: hidden;  
+            margin: auto;  
+            margin: 20 0 0 450px;  
+            padding: 80px;  
+            background: #00D231;  
+            border-radius: 15px ;  
+            bottom:20px;  
+			height:350px;
+    }  
+    h2{  
+        text-align: center;  
+        color: black;  
+        padding: 20px;  
+    }  
+    label{  
+        color: black;  
+        font-size: 17px;  
+    } 
+	
+	.tagline{
+		color: black;  
+        font-size: 17px;  
+	}
+	
+	#checkout{
+		margin-left:20px;
+	}
+
+	#wod{
+		margin-left:40px;
+	}
+	
+	}
+    #vehicle{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }  
+    #Psw{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+          
+    }  
+    #log{  
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px;  
+        padding-left: 7px;  
+        color: blue;  
+      
+      
+    }  
+    span{  
+        color: black;  
+        font-size: 17px;  
+    }  
+    a{  
+        float: right;  
+        background-color: grey;  
+    }  
+
+#btn{
+	width:250px;
+	height:35px;
+	border-radius:8px;
+	margin-left:170px;
+	font-family:bold;
+	font-size:15px;
+}

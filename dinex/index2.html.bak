@@ -1,0 +1,34 @@
+<!DOCTYPE html>    
+    <html>    
+    <head>    
+        <title>Booking Form</title>    
+        <link rel="stylesheet" type="text/css" href="style2.css">  
+		<script src="myscript2.js"></script>
+		
+    </head>    
+    <body>    
+        
+		<video autoplay loop muted id="background-video" >
+        <source src="background1.mp4" type="video/mp4">
+		</video>
+		<h2>Log in or Creat an account to book a vehicle</h2><br>
+		
+        <div class="booking"> 
+			
+		
+		
+		
+        <form id="booking" method="get" action="booking.php" name="bookingForm">
+		<div class="image">
+			<center><img src="images.png" alt="Avatar" class="avatar"></center>
+        </div>     
+            <a href="index.html" target="_blank"><input type="button" name="log" id="log1" value="Log In " onclick="check_form()"> </a>      
+            <input type="button" name="sign" id="log2" value="Sign Up" onclick="check_form()">       
+            <br><br> 
+			
+                
+        </form>     
+    </div> 
+	
+</body>
+</html>
